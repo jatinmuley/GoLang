@@ -11,4 +11,8 @@ func main() {
 	fruitlist[3] = "Orange"
 
 	fmt.Println("Fruit list is ",fruitlist)
+	var veglist =   [4]string{"potato","beans ","Mushroom "}
+
+	fmt.Println("Fruit list is ",veglist)
+
 }

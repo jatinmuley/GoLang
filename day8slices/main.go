@@ -33,4 +33,11 @@ sort.Ints(highscore)
 fmt.Println(highscore)
  fmt.Println(sort.IntsAreSorted(highscore))
 
+
+// remove a value based on index
+ var cources = []string{"react","js","Python","ruby","Java"}
+ fmt.Println(cources)
+ var index =2 
+ cources = append(cources[:index],cources[index+1:]...)
+ fmt.Println(cources)
 }

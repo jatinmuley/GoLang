@@ -30,6 +30,7 @@ func main() {
 		fmt.Println("number is less than10 ")
 	}else{
 		fmt.Println("number is not  less than 10 ")
+	
 	}
 
 	
